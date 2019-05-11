@@ -1,0 +1,20 @@
+{
+  "name": "sound_machine",
+  "version": "1.0.0",
+  "description": "sound machine electron guide",
+  "main": "./main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager ./ SoundMachine --all --out ./package --electron-version 4.2.0 --overwrite --icon=./app/img/app-icon.icns"
+  },
+  "author": "LIJIA",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.2.0",
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "nconf": "^0.7.2"
+  }
+}
